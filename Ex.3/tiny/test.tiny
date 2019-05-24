@@ -1,0 +1,15 @@
+repeat
+	read i;
+until i=1;
+
+while i=1
+	read i;
+endwhile;
+
+if i=1 then
+	read i;
+end;
+
+for i := 3 downto 25 do
+	read i;
+enddo;

@@ -1,0 +1,26 @@
+{ Sample program
+  in TINY language -
+  computes factorial
+}
+read x; { input an integer }
+if 0 < x then { don't compute if x <= 0 }
+	{ Test While }
+	i := 1 mod 100;
+	while x < 5
+		i := i / 2
+	endwhile;
+
+	{ Test For To }
+	for t1 := 1 to 10 do
+		i := i + t1
+	enddo;
+
+	{ Test For Down To }
+	for t2 := 10 downto 1 do
+		i := i - t1
+	enddo;
+
+	write fact { output factorial of x }
+end
+
+
