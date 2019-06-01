@@ -9,6 +9,7 @@
 int lineno = 1;
 int Error = FALSE;
 FILE *in;
+void printTree(TreeNode *);
  
 int main(int argc, char* argv[])
 {

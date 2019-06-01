@@ -6,10 +6,11 @@ while i=1
 	read i;
 endwhile;
 
-if i=1 then
-	read i;
+if j=1 then
+	read j;
 end;
 
-for i := 3 downto 25 do
-	read i;
+for k := 3 downto 25 do
+	read k;
 enddo;
+

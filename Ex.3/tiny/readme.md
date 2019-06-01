@@ -3,10 +3,10 @@
 ### 运行
 
 ```bash
-./compiler.exe -i example.tiny -psc
+./compiler.exe -i example.tiny -ct
 ```
 
-+ `USAGE: compiler -i <filename> [pacth]`
++ `USAGE: compiler -i <filename> [pscth]`
 	+ -i 指定输入 Tiny 代码
 	+ -p 输出语法树
 	+ -s 输出符号表
@@ -28,3 +28,7 @@ make yacc
 # 编译源码
 make && make clean
 ```
+
+### 运行截图
+
+![截图](Snipaste_2019-06-01_14-38-31.jpg)
